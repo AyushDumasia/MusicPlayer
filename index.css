@@ -318,3 +318,54 @@ body{
 .vol-con::-webkit-slider-runnable-track{
     background-color: rgb(126, 152, 126);
 }
+
+
+@media screen and (min-width :300px) and (max-width : 576px) {
+    .sidebar{
+        display: none;
+    }
+    .btn{
+        width: 500px;
+        font-size: small;
+    }
+    .login-btns{
+        display: none;
+    }
+    .add-card{
+        padding: 10px;
+        width: 35%;
+    }
+    .add-card img{
+        border-radius : 5px;
+    }
+    .add-card .cards-title{
+        font-size: 15px;
+    }
+    .add-card p{
+        font-size: 10px;
+        /* display: none; */
+    }
+    .main-content h2{
+        font-size: 20px;
+    }
+    .right,.player-bar{
+        display: none;
+    }
+    .left{
+        align-items : center;
+        width: 100%;
+    }
+    .music-player{
+        height: 4rem;
+    }
+    br{
+        display: none;
+    }
+    .footer{
+        height: 100px;
+        align-items : start;
+    }
+    .left img{
+        width: 20%;
+    }
+}
