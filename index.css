@@ -189,6 +189,7 @@ body{
 
 
 
+
 .add-card{
     padding: 1rem;
     background: linear-gradient(to top,#242424, rgb(0, 0, 0));
@@ -333,7 +334,9 @@ body{
     }
     .add-card{
         padding: 10px;
-        width: 35%;
+        width: 42%;
+    background: linear-gradient(to top,#24242400, rgba(0, 0, 0, 0));
+
     }
     .add-card img{
         border-radius : 5px;
@@ -343,6 +346,7 @@ body{
     }
     .add-card p{
         font-size: 10px;
+        margin: 0;
         /* display: none; */
     }
     .main-content h2{
@@ -354,6 +358,9 @@ body{
     .left{
         align-items : center;
         width: 100%;
+    }
+    .left p {
+        font-weight: 100;
     }
     .music-player{
         height: 4rem;
@@ -367,5 +374,8 @@ body{
     }
     .left img{
         width: 20%;
+    }
+    .hide{
+        display: none;
     }
 }
